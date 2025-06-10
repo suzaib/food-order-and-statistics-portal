@@ -1,0 +1,256 @@
+/* Main container */
+.mainContainer {
+    padding: 40px;
+    background-color: #eef2f7;
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #2c3e50;
+    transition: all 0.3s ease;
+}
+
+/* Title */
+.title {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #34495e;
+    margin-bottom: 40px;
+    letter-spacing: 1.5px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Filters */
+.filters {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    border-bottom: 2px solid #dcdde1;
+    padding-bottom: 15px;
+}
+
+.filterLabel {
+    font-size: 1rem;
+    color: #555;
+    font-weight: 600;
+}
+
+.select {
+    padding: 12px 20px;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    border: 1px solid #ccd1d9;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.select:hover {
+    border-color: #2980b9;
+    background-color: #ecf8ff;
+}
+
+.select:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(41, 128, 185, 0.5);
+}
+
+/* Statistics container */
+.statisticsContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+    width:100vw;
+    justify-content: center;
+    animation: fadeInUp 1s ease-in-out;
+}
+
+/* Statistic card */
+.statCard {
+    background: linear-gradient(145deg, #ffffff, #e6e9ef);
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.1), -4px -4px 10px rgba(255, 255, 255, 0.9);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.statCard:hover {
+    transform: translateY(-10px);
+    box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.15), -6px -6px 15px rgba(255, 255, 255, 0.9);
+}
+
+.statCard h3 {
+    color: #7f8c8d;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.statCard p {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #2980b9;
+    margin: 0;
+    animation: zoomIn 1s ease;
+}
+
+/* Orders container */
+.ordersContainer {
+    margin-top: 50px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.ordersList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.orderCard {
+    background: linear-gradient(145deg, #ffffff, #e6e9ef);
+    border-radius: 12px;
+    padding: 20px;
+    width: 320px;
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.1), -4px -4px 10px rgba(255, 255, 255, 0.9);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.orderCard:hover {
+    transform: translateY(-10px);
+    box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.15), -6px -6px 15px rgba(255, 255, 255, 0.9);
+}
+
+.orderCard p {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    color: #34495e;
+}
+
+.orderCard strong {
+    color: #2980b9;
+    font-weight: 600;
+}
+
+/* Loading & Error states */
+.loading,
+.error {
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top: 50px;
+    color: #e74c3c;
+    font-weight: bold;
+    animation: fadeIn 0.8s ease;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes zoomIn {
+    from {
+        transform: scale(0.9);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1200px) {
+    .statisticsContainer {
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    }
+
+    .filters {
+        justify-content: flex-start;
+        gap: 15px;
+    }
+
+    .select {
+        width: 250px;
+    }
+}
+
+@media (max-width: 768px) {
+    .mainContainer {
+        padding: 20px;
+    }
+
+    .title {
+        font-size: 2.5rem;
+    }
+
+    .statisticsContainer {
+        grid-template-columns: 1fr;
+    }
+
+    .filters {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .select {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .statCard h3 {
+        font-size: 1.2rem;
+    }
+
+    .statCard p {
+        font-size: 1.8rem;
+    }
+
+    .orderCard {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .title {
+        font-size: 2rem;
+    }
+
+    .filters {
+        padding-bottom: 10px;
+    }
+
+    .select {
+        font-size: 1rem;
+    }
+
+    .statCard h3 {
+        font-size: 1.1rem;
+    }
+
+    .statCard p {
+        font-size: 1.5rem;
+    }
+}

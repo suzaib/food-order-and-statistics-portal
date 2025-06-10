@@ -1,0 +1,158 @@
+/* General Layout */
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #f4f4f4;
+  min-height: 100vh;
+}
+
+.formContainer {
+  background-color: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  position: relative; /* For positioning the confirmation message */
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: #333;
+}
+
+/* Form Elements */
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputLabel {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+.dropDown {
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  width: 100%;
+  transition: border-color 0.3s ease;
+}
+
+.dropDown:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+input[type="number"] {
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  width: 100%;
+}
+
+input[type="number"]:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Submit Button */
+.submitBtn {
+  background-color: #007bff;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+.submitBtn:hover {
+  background-color: #0056b3;
+}
+
+/* Order Confirmation */
+.orderConfirmation {
+  position: absolute; /* Ensures it stays within the form container */
+  top: -60px; /* Adjusts position above the form */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #d4edda;
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  color: #155724;
+  animation: fadeIn 0.5s ease-in-out;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.orderConfirmation.below {
+  top: unset;
+  bottom: -60px; /* Position below the form */
+}
+
+.orderConfirmation h3 {
+  margin: 5px 0;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+      transform: translateX(-50%) translateY(20px);
+  }
+  to {
+      opacity: 1;
+      transform: translateX(-50%) translateY(0);
+  }
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .formContainer {
+      padding: 15px;
+  }
+
+  h1 {
+      font-size: 1.5rem;
+  }
+
+  .submitBtn {
+      padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .formContainer {
+      width: 100%;
+      padding: 10px;
+  }
+
+  h1 {
+      font-size: 1.3rem;
+  }
+
+  .submitBtn {
+      padding: 8px;
+  }
+
+  .dropDown,
+  input[type="number"] {
+      padding: 10px;
+  }
+}
