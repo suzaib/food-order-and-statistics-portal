@@ -1,0 +1,256 @@
+[{
+  "_id": {
+    "$oid": "67689776203e7fdd4d9d4a35"
+  },
+  "email": "apsaraicecream@moodi.com",
+  "password": "$2b$10$e2S6nPjIxcqHTFMWVQ1vrujIwNvoeJzS2k7m3SwWNCuQyZ28JRi1S",
+  "role": "vendor"
+},
+{
+  "_id": {
+    "$oid": "676897e6203e7fdd4d9d4a37"
+  },
+  "email": "blazingbbq@moodi.com",
+  "password": "$2b$10$Pze/96QUMo5Dm9a3zuPsy.6LNthgEkBegjdxEeh4WWfgeLCWylMla",
+  "role": "vendor"
+},
+{
+  "_id": {
+    "$oid": "67689a39d5936946ac7c26f4"
+  },
+  "email": "freakyfoods@moodi.com",
+  "password": "$2b$10$5HAzR5w71cV6SCsjsZ7bW.aCVNgzVjTCjv1XrYgN2dwtogt5XDAQG",
+  "role": "vendor"
+},
+{
+  "_id": {
+    "$oid": "67689a8dd5936946ac7c26f6"
+  },
+  "email": "frozenbottle@moodi.com",
+  "password": "$2b$10$3ViGmnXjLsx8RVaPFOiMXOeQ0405J72l4fgU72nIGb.048dGjAO.K",
+  "role": "vendor"
+},
+{
+  "_id": {
+    "$oid": "67689b1dd5936946ac7c26f8"
+  },
+  "email": "galavendor@moodi.com",
+  "password": "$2b$10$BEyDwQZmlt6LFs4RINA3aOxMSHSAuhh38OXsjz9WkM0P/2ouhP5wi",
+  "role": "vendor"
+},
+{
+  "_id": {
+    "$oid": "67689b6ad5936946ac7c26fa"
+  },
+  "email": "grubwala@moodi.com",
+  "password": "$2b$10$ZDQ7wFC8A5qY8XBrVRAluOkHZGMusb0q4fmi1KuS9kJdUqgCAUNBS",
+  "role": "vendor"
+},
+{
+  "_id": {
+    "$oid": "67689bacd5936946ac7c26fc"
+  },
+  "email": "hungerfoods@moodi.com",
+  "password": "$2b$10$4fmXMIyrc0vE0mSyhMK0hOaCiLozRxjXI0njavhdVijdMopr7qVbG",
+  "role": "vendor"
+},
+{
+  "_id": {
+    "$oid": "67689c7ed5936946ac7c26fe"
+  },
+  "email": "hotdogharbour@moodi.com",
+  "password": "$2b$10$bjcEEG9KX371P522xuQ2G.QlT6DGXmc.T8CVokybPW2EoYIaVxfQy",
+  "role": "vendor"
+},
+{
+  "_id": {
+    "$oid": "67689d2cd5936946ac7c2700"
+  },
+  "email": "juicepoint@moodi.com",
+  "password": "$2b$10$AlD9kCWwobdW6fSgV1VshObcZtG8QaXgEW5K.iecjnMzXOVzW8vXu",
+  "role": "vendor"
+},
+{
+  "_id": {
+    "$oid": "67689d74d5936946ac7c2702"
+  },
+  "email": "madmomos@moodi.com",
+  "password": "$2b$10$itATOy5lQxqNkCy1N./S/uVEUsLjrhvk8KR24N8T.6SpbhNSjgeK.",
+  "role": "vendor"
+},
+{
+  "_id": {
+    "$oid": "67689db3d5936946ac7c2704"
+  },
+  "email": "mgs@moodi.com",
+  "password": "$2b$10$.FX4gge4evEvPPJxJdu4muajJgYSe3AGbFNcfWcsD6QLaDPfAc.J6",
+  "role": "vendor"
+},
+{
+  "_id": {
+    "$oid": "67689df1d5936946ac7c2706"
+  },
+  "email": "pvr@moodi.com",
+  "password": "$2b$10$iteWS/61zS9NIWqnGlDwEuHHbZGGF8ZDwzR8CHdsvvvaUb7hy1YKG",
+  "role": "vendor"
+},
+{
+  "_id": {
+    "$oid": "67689e31d5936946ac7c2708"
+  },
+  "email": "rollsmania@moodi.com",
+  "password": "$2b$10$y19ZUuXL1X7qIt9DwdmVSuYAUJZWaQR.zjjQ2XSTOghV0wcxZzu.i",
+  "role": "vendor"
+},
+{
+  "_id": {
+    "$oid": "67689ea3d5936946ac7c270a"
+  },
+  "email": "sbarro@moodi.com",
+  "password": "$2b$10$RI2RL36Amw7j2c3yfbxCleKX.NVH1p5x3siFxUxumBNIlflVm8R/a",
+  "role": "vendor"
+},
+{
+  "_id": {
+    "$oid": "67689eecd5936946ac7c270c"
+  },
+  "email": "shawarmaji@moodi.com",
+  "password": "$2b$10$rKvVqtl.w5JhgQDbRVpRHu9En17q4/TDWHWXNgW.ifKqLNEQne1mO",
+  "role": "vendor"
+},
+{
+  "_id": {
+    "$oid": "67689f26d5936946ac7c270e"
+  },
+  "email": "sodaterian@moodi.com",
+  "password": "$2b$10$S9dJYNAorpM73SvpnXRGTeU8Z71JTuzYnEuMdP0yUVd3F39SwdBYS",
+  "role": "vendor"
+},
+{
+  "_id": {
+    "$oid": "67689f7cd5936946ac7c2710"
+  },
+  "email": "starbucks@moodi.com",
+  "password": "$2b$10$y5n66ZdV8lOdYLCAvYCv7uLGqxuWNg4XH91TesGKfg5vpsVpNwxnm",
+  "role": "vendor"
+},
+{
+  "_id": {
+    "$oid": "67689fcfd5936946ac7c2712"
+  },
+  "email": "tacobell@moodi.com",
+  "password": "$2b$10$jFeQ/mJ.9q5L8ycNTWbu4.SdJenKJL8qsiOuN.3oN72V3xIqYA5Cu",
+  "role": "vendor"
+},
+{
+  "_id": {
+    "$oid": "6768a028d5936946ac7c2714"
+  },
+  "email": "theappetitemomos@moodi.com",
+  "password": "$2b$10$CJMdLiF2Rp.busP6d46bQereFodPJ/TjRoZB.JPV1wQBXyODtHJ5a",
+  "role": "vendor"
+},
+{
+  "_id": {
+    "$oid": "6768a078d5936946ac7c2716"
+  },
+  "email": "thej@moodi.com",
+  "password": "$2b$10$0NHphRJisOLefnzDXD5lS.5N8gC3qez.W1NFD5CgN5NvKmpp6egmu",
+  "role": "vendor"
+},
+{
+  "_id": {
+    "$oid": "6768a0bed5936946ac7c2718"
+  },
+  "email": "theyellowmustard@moodi.com",
+  "password": "$2b$10$48jXr0NRGdDIWUAXnsLMsuC1JK0yGwm15snyI.4yjYX/L6yxR7kI2",
+  "role": "vendor"
+},
+{
+  "_id": {
+    "$oid": "6768a10cd5936946ac7c271a"
+  },
+  "email": "tasteofhyderabad@moodi.com",
+  "password": "$2b$10$r82J.50jtyE7MSzGyJGSS.Wo/6OCPqG/e8jLwmYJr/vAkwaD62/qG",
+  "role": "vendor"
+},
+{
+  "_id": {
+    "$oid": "6768a149d5936946ac7c271c"
+  },
+  "email": "wakaofoods@moodi.com",
+  "password": "$2b$10$/NevnKqR6ttBgprKGZOoz.aCkjYG6nMxxiIcxtEjXYUNxNqS.aXPS",
+  "role": "vendor"
+},
+{
+  "_id": {
+    "$oid": "6768a194d5936946ac7c271e"
+  },
+  "email": "wowmomos@moodi.com",
+  "password": "$2b$10$WKZKEIyB26mCdFixiPhjXuOmVypEBr.P0wJB/UOEApbHAKhPTJoR2",
+  "role": "vendor"
+},
+{
+  "_id": {
+    "$oid": "6769ff526c0abf0df5dc3da9"
+  },
+  "email": "h15@moodi.com",
+  "password": "$2b$10$hlZXz56hozgpW/P7FdYjf.Wuh2CfObvEa9caLNG6yZXf35NLqYMmO",
+  "role": "admin"
+},
+{
+  "_id": {
+    "$oid": "676a01266c0abf0df5dc3dab"
+  },
+  "email": "eatsnap@moodi.com",
+  "password": "$2b$10$XhpgHOxYLtzEodDHn6PUm.ELY5JAyz7JvakvWUnlc9DGHVmCtLQNS",
+  "role": "vendor"
+},
+{
+  "_id": {
+    "$oid": "676a028a13b7981708c47372"
+  },
+  "email": "feastateast@moodi.com",
+  "password": "$2b$10$zDk2fagb/U/r.QPxQBaNWuzc49icXmWoyVIyaD3vXv0tDx09OyHzy",
+  "role": "vendor"
+},
+{
+  "_id": {
+    "$oid": "676a035a048d301516f9b19a"
+  },
+  "email": "zatar@moodi.com",
+  "password": "$2b$10$JdcG4J8xh/uSm9Ig55Gxm.FgWatbkoZNuEYWczvAv0AYzPYa8tBIO",
+  "role": "vendor"
+},
+{
+  "_id": {
+    "$oid": "676a047c048d301516f9b19c"
+  },
+  "email": "ufo@moodi.com",
+  "password": "$2b$10$t7L/qkrGdks8N0poAqPkne2XOAdiIPx0xHU./kSZmPUg0iVvQDi5.",
+  "role": "vendor"
+},
+{
+  "_id": {
+    "$oid": "676a0738048d301516f9b1a0"
+  },
+  "email": "osp@moodi.com",
+  "password": "$2b$10$XEma16ywYUtTXnvDJF6SiOZl8voi6NjkWIkvMJGnV6fugFcmi5nBu",
+  "role": "admin"
+},
+{
+  "_id": {
+    "$oid": "676a077b048d301516f9b1a2"
+  },
+  "email": "hockey@moodi.com",
+  "password": "$2b$10$l2LaAJSkK2fschFR11EWu.2u3MR0mPdfM1utdvgsXwbsYN540Vft6",
+  "role": "admin"
+},
+{
+  "_id": {
+    "$oid": "676a07c9048d301516f9b1a4"
+  },
+  "email": "gymkhana@moodi.com",
+  "password": "$2b$10$1ystoQeo68cPQIcBA1Ul0.1e5w/.zxG//96LLzOywQ3GepiXpwJGS",
+  "role": "admin"
+}]
