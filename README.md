@@ -9,5 +9,6 @@ Create an env file with the following:<br/>
 MONGO_URI=#Your Mongo DB URL<br/>
 JWT_SECRET=#Your JWT Secret<br/>
 PORT=#Port<br/>
-
+<hr/>
+users.json contains database of all users and vedors.<br/>
 <hr/>
